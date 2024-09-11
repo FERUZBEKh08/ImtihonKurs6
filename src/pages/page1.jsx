@@ -1,8 +1,12 @@
 import "../App.css";
 
-import map from "../img/map-embed (1).png"
+import map from "../img/map-embed (1).png";
 
-import logo from "../img/logo (2).png"
+import logo from "../img/logo (2).png";
+
+//navlink
+
+import { NavLink } from "react-router-dom";
 
 //swiper
 
@@ -86,7 +90,9 @@ export default function page1() {
                   попробовать другие виды зимнего отдыха.
                 </p>
 
-                <button className="btn2">Подробнее</button>
+                <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
               </article>
             </div>
           </SwiperSlide>
@@ -101,7 +107,9 @@ export default function page1() {
                   попробовать другие виды зимнего отдыха.
                 </p>
 
-                <button className="btn2">Подробнее</button>
+                <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
               </article>
             </div>
           </SwiperSlide>
@@ -116,7 +124,9 @@ export default function page1() {
                   попробовать другие виды зимнего отдыха.
                 </p>
 
-                <button className="btn2">Подробнее</button>
+                <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
               </article>
             </div>
           </SwiperSlide>
@@ -131,7 +141,9 @@ export default function page1() {
                   попробовать другие виды зимнего отдыха.
                 </p>
 
-                <button className="btn2">Подробнее</button>
+                <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
               </article>
             </div>
           </SwiperSlide>
@@ -148,12 +160,14 @@ export default function page1() {
               сэкономить!
             </p>
 
-            <button className="btn2">Купить/Пополнить</button>
+            <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
           </article>
         </div>
 
         <div className="bottom">
-        <article className="one">
+          <article className="one">
             <div className="inOne">
               <article>
                 <h1>Крупнейший сноупарк в Пермском крае</h1>
@@ -165,13 +179,13 @@ export default function page1() {
                 </p>
               </article>
             </div>
-      </article>
+          </article>
         </div>
       </article>
 
       <article className="four">
-      <div className="bottom">
-        <article className="one">
+        <div className="bottom">
+          <article className="one">
             <div className="inOne">
               <article>
                 <h1>Крупнейший сноупарк в Пермском крае</h1>
@@ -181,11 +195,12 @@ export default function page1() {
                   которые, по словам посетителей, всегда работают стабильно и
                   без нареканий.
                 </p>
-
-                <button className="btn2">Афиша</button>
+                <NavLink to="/page1/map">
+                  <button className="btn2">Подробнее</button>
+                </NavLink>
               </article>
             </div>
-      </article>
+          </article>
         </div>
       </article>
 
@@ -193,22 +208,22 @@ export default function page1() {
         <div className="top">
           <div className="box">
             <article>
-            <h1>Как добраться</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>Как добраться</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
           <div className="box">
             <article>
-            <h1>График работы</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>График работы</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
         </div>
@@ -218,22 +233,22 @@ export default function page1() {
         <div className="underBottom">
           <div className="box">
             <article>
-            <img src={logo} alt="" />
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <img src={logo} alt="" />
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
           <div className="box">
             <article>
-            <h1>Контакты</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>Контакты</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
         </div>

@@ -1,11 +1,12 @@
 import "../App";
 
+//Navlink
 
-import map from "../img/map-embed (1).png"
+import { NavLink } from "react-router-dom";
 
-import logo from "../img/logo (2).png"
+import map from "../img/map-embed (1).png";
 
-
+import logo from "../img/logo (2).png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,13 +16,11 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper/modules";
 
-
 export default function page3() {
   return (
     <div className="page3">
       <article className="one">
-
-      <div className="top">
+        <div className="top">
           <article className="one">
             <div className="inOne">
               <article>
@@ -45,10 +44,11 @@ export default function page3() {
               сэкономить!
             </p>
 
-            <button className="btn2">Купить/Пополнить</button>
+            <NavLink to="/page3/star">
+              <button className="btn2">Купить/Пополнить</button>
+            </NavLink>
           </article>
         </div>
-
       </article>
 
       <article className="two">
@@ -81,55 +81,44 @@ export default function page3() {
             className="mySwiper"
           >
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
 
             <SwiperSlide className="swipersss">
-              <article className="article">
-              </article>
+              <article className="article"></article>
             </SwiperSlide>
-
           </Swiper>
         </div>
 
@@ -140,7 +129,9 @@ export default function page3() {
             Весь спектр услуг от проката инвентаря до катания на снегоходах!
           </p>
 
-          <button className="btn2">Подробнее</button>
+          <NavLink to="/page3/star">
+            <button className="btn2">Подробнее</button>
+          </NavLink>
         </div>
       </article>
 
@@ -157,7 +148,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -172,7 +165,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -187,7 +182,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -202,12 +199,12 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
-
-
           </Swiper>
         </article>
       </article>
@@ -225,7 +222,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -240,7 +239,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -255,7 +256,9 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
@@ -270,12 +273,12 @@ export default function page3() {
                     которые, по словам посетителей, всегда работают стабильно и
                     без нареканий.
                   </p>
-                  <button className="btn2">Подробнее</button>
+                  <NavLink to="/page3/star">
+                    <button className="btn2">Подробнее</button>
+                  </NavLink>
                 </article>
               </div>
             </SwiperSlide>
-
-
           </Swiper>
         </article>
       </article>
@@ -338,8 +341,6 @@ export default function page3() {
                 </article>
               </div>
             </SwiperSlide>
-
-
           </Swiper>
         </article>
       </article>
@@ -348,22 +349,22 @@ export default function page3() {
         <div className="top">
           <div className="box">
             <article>
-            <h1>Как добраться</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>Как добраться</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
           <div className="box">
             <article>
-            <h1>График работы</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>График работы</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
         </div>
@@ -373,22 +374,22 @@ export default function page3() {
         <div className="underBottom">
           <div className="box">
             <article>
-            <img src={logo} alt="" />
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <img src={logo} alt="" />
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
           <div className="box">
             <article>
-            <h1>Контакты</h1>
-            <p>
-              Скорый электропоезд Ласточка довезет Вас до Чусового,где
-              производится пересадка на автобусный трансфер до Горнолыжного
-              курорта Такман.
-            </p>
+              <h1>Контакты</h1>
+              <p>
+                Скорый электропоезд Ласточка довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта Такман.
+              </p>
             </article>
           </div>
         </div>

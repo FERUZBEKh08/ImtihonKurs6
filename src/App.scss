@@ -4,7 +4,6 @@
 }
 .container{
     max-width: 1450px;
-    height: 100vh;
     margin: auto;
     position: relative;
 }
@@ -503,6 +502,72 @@ nav{
         }
     }
 }
+
+.inMainPage{
+    .one{
+        background-image: url(./img/inPage1Back.png);
+        width: 100%;
+        height: 700px;
+        text-shadow: 0px 0px 10px black;
+        article{
+            padding: 150px 50px;
+            color: white;
+            display: grid;
+            grid-gap: 20px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 13px;
+                color: white;
+            }
+        }
+    }
+
+    .two{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+        img{
+            width: 100%;
+        }
+        article{
+            padding: 50px 50px;
+            color: black;
+            line-height: 30px;
+            h1{
+                width: 90%;
+                font-size: 50px
+            }
+            p{
+                margin-top: 20px;
+                width: 80%;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img{
+                    margin-top: 20px;
+                    width: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+.mapIn{ 
+    .imgOne{
+        background-color: #000000;
+        padding-top: 75px;
+        width: 100%;
+    }
+    .imgTwo{
+        width: 100%;
+    }
+}
+
 
 .page1{
     .one{
@@ -1065,6 +1130,73 @@ nav{
     }
 }
 
+.inPage2{
+    .one{
+        padding-top: 95px;
+        background-color: #181F26;
+        .top{
+            display: grid;
+            grid-gap: 30px;
+            padding: 50px;
+            background-color: #181F26;
+            color: white;
+            p{
+                font-weight: 100;
+            }
+            h1{
+                font-size: 50px;
+            }
+        }
+        .bottom{
+            padding: 0px 50px;
+            .swipersss{
+                width: 450px;
+                height: 400px;
+                background-image: url(./img/pageThreeSwiperImgOne.png);
+                background-size: cover;
+                color: white;
+                cursor: pointer;
+                border-radius: 10px;
+                article{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    transition: all 1s;
+                    padding: 0px 0px;
+                    color: white;
+                    h1{
+                        margin-bottom: 5px;
+                    }
+                    &:hover{
+                        opacity: 1;
+                        padding: 5% 0px;
+                    }
+                }
+            }
+    
+            .swipersss:nth-child(2){
+                background-image: url(./img/pageThreeSwiperImgTwo.png);
+            }
+    
+            .swipersss:nth-child(4){
+                background-image: url(./img/pageThreeSwiperImgTwo.png);
+            }
+    
+            .swipersss:nth-child(6){
+                background-image: url(./img/pageThreeSwiperImgTwo.png);
+            }
+    
+            .swipersss:nth-child(8){
+                background-image: url(./img/pageThreeSwiperImgTwo.png);
+            }
+    
+            .swipersss:nth-child(10){
+                background-image: url(./img/pageThreeSwiperImgTwo.png);
+            }
+        }
+    }
+}
+
 
 .page3{
     .one{
@@ -1375,6 +1507,58 @@ nav{
         }
     }
 }
+.inPage3{
+    .one{
+        background-image: url(./img/inPage1Back.png);
+        width: 100%;
+        height: 700px;
+        text-shadow: 0px 0px 10px black;
+        article{
+            padding: 150px 50px;
+            color: white;
+            display: grid;
+            grid-gap: 20px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 13px;
+                color: white;
+            }
+        }
+    }
+
+    .two{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+        img{
+            width: 100%;
+        }
+        article{
+            padding: 50px 50px;
+            color: black;
+            line-height: 30px;
+            h1{
+                width: 90%;
+                font-size: 50px
+            }
+            p{
+                margin-top: 20px;
+                width: 80%;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img{
+                    margin-top: 20px;
+                    width: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
 
 .page4{
     .one{
@@ -1517,6 +1701,33 @@ nav{
         } 
     }
 }
+.inPage4{
+    .one{
+        display: flex;
+        align-items: center;
+        background-image: url(./img/mainPage.png);
+        width: 100%;
+        height: 720px;
+        text-shadow: 0px 0px 20px rgb(0, 0, 0);
+        .left{
+            width: 500px;
+            color: white;
+            display: grid;
+            grid-gap: 20px;
+            align-items: center;
+            color: white;
+            margin-left: 50px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                color: #f3f3f3;
+            }
+        }
+    }
+}
+
+
 
 .page5{
     .one{
@@ -1667,6 +1878,42 @@ nav{
         }
     }
 }
+.inPage5{
+    .one{
+        padding: 50px;
+      h1{
+        width: 25%;
+        font-size: 50px;
+      }  
+      .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        article{
+            margin-top: 30px;
+            line-height: 50px;
+            width: 600px;
+            h2{
+                font-size: 40px;
+            }
+            p{
+                line-height: 30px;
+            } 
+          }
+      }
+
+      .box:nth-child(1){
+        margin-top: 50px;
+        article{
+            line-height: 50px;
+            h2{
+                width: 200px;
+            }
+        }
+      }
+    }
+}
+
 
 .page6{
     .one{
@@ -2002,6 +2249,9 @@ nav{
 
 
 
+
+
+
 //navBottom
 
 @media(max-width:1095px){
@@ -2086,6 +2336,42 @@ nav{
 }
 
 @media(max-width:650px){
+
+    .inMainPage{
+        padding-bottom:50px;
+    }
+
+    .inPage2{
+        padding-bottom: 50px;
+    }
+
+    .inPage3{
+        padding-bottom: 50px;
+    }
+
+    .inPage4{
+        height: 100vh;
+        .one{
+            height: 100%;
+            .left{
+                color: white;
+                display: grid;
+                grid-gap: 20px;
+                align-items: center;
+                padding: 0;
+                margin: 0;
+                padding: 0px 50px;
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 10px;
+                    color: #f3f3f3;
+                }
+            }
+        }
+    }
+
     .page2{
         .one{
             max-width: 650px;
@@ -3008,6 +3294,47 @@ nav{
                 }
             }
         }
+    }
+    .inPage5{
+        .one{
+            padding: 50px;
+          h1{
+            width: 100%;
+            font-size: 30px;
+          }  
+          .box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                position: absolute;
+                z-index: -1;
+                right: 50px;
+            }
+            article{
+                margin-top: 30px;
+                line-height: 50px;
+                width: 600px;
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    line-height: 30px;
+                } 
+              }
+          }
+    
+          .box:nth-child(1){
+            margin-top: 50px;
+            article{
+                line-height: 50px;
+                h2{
+                    width: 200px;
+                }
+            }
+          }
+        }
+
     }
 
     .page6{

@@ -1,41 +1,16 @@
-import "../App.jsx";
+import "../App.css"
 
-import { NavLink } from "react-router-dom";
+import logoPdp from "../img/image 10.png";
+import logoWorld from "../img/image 11.png";
 
 import map from "../img/map-embed (1).png"
 
 import logo from "../img/logo (2).png"
 
-import logoPdp from "../img/image 10.png";
-import logoWorld from "../img/image 11.png";
-
-export default function page5() {
+export default function inPage5() {
   return (
-    <div className="page5">
-      <article className="one">
-        <div className="top">
-          <article className="one">
-            <div className="inOne">
-              <article>
-                <h1>Крупнейший сноупарк в Пермском крае</h1>
-
-                <p>
-                  Наш горнолыжный курорт оснащен современными подъемниками,
-                  которые, по словам посетителей, всегда работают стабильно и
-                  без нареканий.
-                </p>
-
-
-                <NavLink to="/page5/in">
-                <button className="btn2">Забронировать</button>
-                </NavLink>
-              </article>
-            </div>
-          </article>
-        </div>
-      </article>
-
-      <article className="two">
+    <div className="inPage5">
+            <article className="one">
         <h1>Туры на «Такман»</h1>
 
         <div className="box">
@@ -140,5 +115,5 @@ export default function page5() {
         </div>
       </article>
     </div>
-  );
+  )
 }

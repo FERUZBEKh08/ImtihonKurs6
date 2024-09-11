@@ -1,5 +1,7 @@
 import "../App.css";
 
+import { NavLink } from "react-router-dom";
+
 import logo from "../img/logo 2.png"
 
 
@@ -18,8 +20,9 @@ export default function page4() {
                   которые, по словам посетителей, всегда работают стабильно и
                   без нареканий.
                 </p>
-
-                <button className="btn2">Забронировать</button>
+                <NavLink to="/page4/in">
+                    <button className="btn2">Забронировать</button>
+                  </NavLink>
               </article>
             </div>
           </article>
