@@ -13,9 +13,9 @@ export default function navbar() {
   return (
     <nav>
       <article className="navLeft">
-        <NavLink to="/" activeClassName="active">
-          <img src={logo} alt="" />
-        </NavLink>
+      <NavLink to={"/"} className="linkNavbarpc">
+        <img className="logoNav" src={logo} alt="" />
+      </NavLink>
         <ul>
           <li>
             <NavLink to="/page1" activeClassName="active">

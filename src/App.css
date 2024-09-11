@@ -229,8 +229,13 @@ nav {
   right: 20px;
   z-index: 9999999999;
 }
+nav .linkNavbarpc {
+  cursor: pointer;
+}
 nav .logoNav {
   z-index: 1;
+  cursor: pointer;
+  z-index: 1000;
 }
 nav .navLeft {
   display: flex;
@@ -262,7 +267,7 @@ nav .navLeft ul .styleBox {
           backdrop-filter: blur(10px);
   border-radius: 10px;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   top: 17px;
   left: 0;
   transition: all 1s;
@@ -1665,7 +1670,7 @@ nav .navRight .one img {
   display: none;
 }
 .logoTop img {
-  width: 100px;
+  width: 75px;
   filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
 }
 
@@ -1817,6 +1822,24 @@ nav .navRight .one img {
     display: block;
     cursor: pointer;
     z-index: 200;
+  }
+  .page1 .four {
+    padding-bottom: 50px;
+  }
+  .page2 .six {
+    padding-bottom: 50px;
+  }
+  .page3 {
+    padding-bottom: 50px;
+  }
+  .page4 {
+    padding-bottom: 50px;
+  }
+  .page5 {
+    padding-bottom: 50px;
+  }
+  .page6 {
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 600px) {
